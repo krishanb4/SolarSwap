@@ -28,12 +28,12 @@ const PageMeta = () => {
   const cakePriceUsdDisplay = cakePriceUsd.eq(0)
     ? ''
     : `$${cakePriceUsd.toNumber().toLocaleString(undefined, {
-        minimumFractionDigits: 3,
-        maximumFractionDigits: 3,
-      })}`
+      minimumFractionDigits: 3,
+      maximumFractionDigits: 3,
+    })}`
   const pageMeta = customMeta[pathname] || {}
   const { title, description, image } = { ...DEFAULT_META, ...pageMeta }
-  const pageTitle = cakePriceUsdDisplay ? [title, cakePriceUsdDisplay].join(' - ') : title
+  const pageTitle = title
 
   return (
     <Helmet>
