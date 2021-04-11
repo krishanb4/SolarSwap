@@ -14,7 +14,7 @@ import LeadInBanner from 'views/TradingCompetition/components/LeadInBanner'
 
 const Hero = styled.div`
   align-items: center;
-  background-image: url('/images/pan-bg-mobile.svg');
+  background-image: url('/images/galaxy.svg');
   background-repeat: no-repeat;
   background-position: top center;
   display: flex;
@@ -26,7 +26,7 @@ const Hero = styled.div`
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/pan-bg2.svg'), url('/images/pan-bg.svg');
+    background-image: url('/images/universe.svg'), url('/images/saturn.svg');
     background-position: left center, right center;
     height: 165px;
     padding-top: 0;
