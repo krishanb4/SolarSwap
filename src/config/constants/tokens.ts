@@ -78,7 +78,7 @@ const tokens = {
   belt: {
     symbol: 'BELT',
     address: {
-      56: '0xE0e514c7562b6f4e823703a39374Cf58dc3eA4f',
+      56: '0xE0e514c71282b6f4e823703a39374Cf58dc3eA4f',
       97: '',
     },
     decimals: 18,
@@ -123,7 +123,7 @@ const tokens = {
   tpt: {
     symbol: 'TPT',
     address: {
-      56: '0xeca4561c24451168a37211f0bc2b8645af45092',
+      56: '0xeca41281c24451168a37211f0bc2b8645af45092',
       97: '',
     },
     decimals: 4,
